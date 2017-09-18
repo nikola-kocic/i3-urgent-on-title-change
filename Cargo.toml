@@ -1,0 +1,9 @@
+[package]
+name = "i3-urgent-on-title-change"
+version = "0.1.0"
+authors = ["Nikola Kocić <nikolakocic@gmail.com>"]
+
+[dependencies]
+i3ipc = "0.7.0"
+xcb = "0.8.1"
+xcb-util = { version = "0.2.0", features = ["icccm"] }
